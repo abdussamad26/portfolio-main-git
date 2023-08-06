@@ -4,7 +4,7 @@ import './Social.css'
 function Social() {
   return (
     <div>
-        <section style={{backgroundColor:"#1f1f1f"}}>
+        <section className="mt-5" style={{backgroundColor:"#1f1f1f"}}>
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-12 text-center'>
