@@ -1,0 +1,8 @@
+.down {
+    height: 30vh;
+}
+@media (max-width : 767px) {
+    .down {
+        height: 45vh;
+    }
+   }

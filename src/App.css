@@ -1,0 +1,35 @@
+.light-mode {
+    background-color: #e9d5a1;
+    color: #0c0c0c;
+  }
+  
+  .dark-mode {
+    background-color: #444444;
+    color: #ffffff;
+  }
+  h3 {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Sigmar', cursive;
+    font-family: 'Source Code Pro', monospace;
+  }
+  h2 {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Sigmar', cursive;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .spinner {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+  }
+  @media (max-width : 767px) {
+    .spinner {
+      position: absolute;
+      top: 43%;
+      left: 45% !important;
+      transform: translate(-50%,-50%);
+    }
+  }
